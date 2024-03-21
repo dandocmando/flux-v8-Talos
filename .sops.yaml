@@ -4,9 +4,9 @@ creation_rules:
     path_regex: talos/.*\.sops\.ya?ml
     key_groups:
       - age:
-          - "age1g8u26jxxx3ls68u6sy03udtex6wzen0vqx28qesg95752n9uksfqv947sm"
+          - "age1pke2vgr7n2fxj77wcfl82pypnndrn2z70xx26gcgjdft4g4krgeqqdv6hk"
   - path_regex: kubernetes/.*\.sops\.ya?ml
     encrypted_regex: "^(data|stringData)$"
     key_groups:
       - age:
-          - "age1g8u26jxxx3ls68u6sy03udtex6wzen0vqx28qesg95752n9uksfqv947sm"
+          - "age1pke2vgr7n2fxj77wcfl82pypnndrn2z70xx26gcgjdft4g4krgeqqdv6hk"
